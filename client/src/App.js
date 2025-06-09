@@ -1,18 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import axios from 'axios';
+import './App.css';
+// const apiBase = process.env.REACT_APP_API_URL || '';
 
-const App = () => {
-  // const [todos, setTodos] = useState([]);
-  // useEffect(() => {
-  //   // Fetch data from the Express server
-  //   axios.get('http://localhost:5000/todos')
-  //     .then(response => setTodos(response.data))
-  //     .catch(error => console.error(error));
-  // }, []);
+function Home() {
   return (
     <div>
-      <h1>Joanne's Super Cool Portfolio Site</h1>
+      <h3>Joanne's Portfolio Site</h3>
     </div>
+  );
+}
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 };
 export default App;
