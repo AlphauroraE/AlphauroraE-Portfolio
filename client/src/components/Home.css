@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Monsieur+La+Doulaise&display=swap');
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fancy {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180px;
+}
+
 /* body {
     background-color: black;
 } */
@@ -19,6 +35,7 @@
     /* optional: vertically center */
     justify-content: space-between;
     /* optional: space between text and photo */
+    padding: 30px;
 }
 
 .about-me {
@@ -26,11 +43,15 @@
     /* Takes up available space */
     padding-right: 20px;
     /* space between text and image */
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .photo {
-    width: 40vw;
-    height: 40vw;
+    width: 35vw;
+    height: 35vw;
 }
 
 .photo img {

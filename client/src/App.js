@@ -41,6 +41,14 @@ function PhotographyPage() {
   );
 }
 
+function PublicationsPage() {
+  return (
+    <div>
+      <h3>Publications</h3>
+    </div>
+  );
+}
+
 const App = () => {
   return (
     <Router>
@@ -48,6 +56,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/experience" element={<ExperiencePage />} />
+        <Route path="/publications" element={<PublicationsPage />} />
         <Route path="/photography" element={<PhotographyPage />} />
       </Routes>
     </Router>

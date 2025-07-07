@@ -12,9 +12,9 @@ const Home = () => {
                     backgroundImage: `url(${process.env.PUBLIC_URL + '/images/sunset.jpeg'})`,
                 }}
             >
-                <h1>Hi! I'm Joanne.</h1>
+                <h1>Hi! I'm           </h1>
+                <h1 className="fancy">Joanne</h1>
             </div >
-            <br />
             <div className="content-container">
                 <div className="about-me">
                     Hello! I'm Joanne, a software engineer with a passion for creating innovative solutions. I love coding, photography, and exploring new technologies. Welcome to my portfolio!
