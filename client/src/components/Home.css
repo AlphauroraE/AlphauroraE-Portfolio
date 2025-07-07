@@ -1,0 +1,43 @@
+/* body {
+    background-color: black;
+} */
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    /* optional */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    /* optional: vertically center */
+    justify-content: space-between;
+    /* optional: space between text and photo */
+}
+
+.about-me {
+    flex: 1;
+    /* Takes up available space */
+    padding-right: 20px;
+    /* space between text and image */
+}
+
+.photo {
+    width: 40vw;
+    height: 40vw;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Crop top/bottom if needed to cover area */
+    display: block;
+    border-radius: 50%;
+}
