@@ -68,9 +68,12 @@
     transition: color 0.3s ease;
 }
 
-.bottom a:hover {
-    color: #0a66c2;
-    /* LinkedIn blue on hover */
+.bottom .LinkedIn:hover {
+    color: #0275b3;
+}
+
+.bottom .GitHub:hover {
+    color: #5a1c87;
 }
 
 /* .bottom .made-with-love {
