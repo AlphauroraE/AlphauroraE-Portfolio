@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Monsieur+La+Doulaise&display=swap');
 
+/* html,
+body {
+    overscroll-behavior: none;
+} */
+
 h1 {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -14,31 +19,60 @@ h1 {
     font-size: 180px;
 }
 
-/* body {
-    background-color: black;
-} */
-
 .banner {
-    /* aspect-ratio: 16 / 9; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 40vh;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
     color: white;
+    z-index: 0;
 }
+
 
 .content-container {
     display: flex;
     align-items: center;
-    /* optional: vertically center */
     justify-content: space-between;
-    /* optional: space between text and photo */
     padding: 30px;
+
+    margin-top: 100vh;
+    position: relative;
+    background: white;
+    z-index: 1;
+    height: 100vh;
+
+    overflow: visible;
 }
+
+/* .content-container::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+pointer-events: none;
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+z-index: 2;
+}
+*/
+
+/* .vignette-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+    z-index: 1;
+} */
 
 .about-me {
     flex: 1;
@@ -64,4 +98,8 @@ h1 {
     display: block;
     border-radius: 50%;
     /* border: 10px solid gold; */
+}
+
+.bottom {
+    background-color: #fb7624;
 }

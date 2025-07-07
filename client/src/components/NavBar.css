@@ -40,9 +40,8 @@
 
 .bottom {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    /* semi-transparent black */
-    color: black;
+    /* background-color: rgba(0, 0, 0, 0);
+    color: black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,8 +51,10 @@
     font-family: "EB Garamond", serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: 40px;
-    /* some space from content above */
+
+    z-index: 1000;
+    position: relative;
+    bottom: 0;
 }
 
 .bottom .icons {

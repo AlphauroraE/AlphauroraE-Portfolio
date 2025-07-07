@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './Home.css';
 import profile from '../assets/photo.jpg';
+import Bottom from './Bottom';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 <h1 className="fancy">Joanne</h1>
             </div >
             <div className="content-container">
+                {/* <div class="vignette-overlay"></div> */}
                 <div className="about-me">
                     Hello! I'm Joanne, a software engineer with a passion for creating innovative solutions. I love coding, photography, and exploring new technologies. Welcome to my portfolio!
                 </div>
