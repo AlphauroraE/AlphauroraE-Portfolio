@@ -19,11 +19,13 @@ h1 {
 } */
 
 .banner {
+    /* aspect-ratio: 16 / 9; */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 40vh;
-    /* optional */
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     color: white;
@@ -61,4 +63,5 @@ h1 {
     /* Crop top/bottom if needed to cover area */
     display: block;
     border-radius: 50%;
+    /* border: 10px solid gold; */
 }
