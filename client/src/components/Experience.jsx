@@ -1,11 +1,11 @@
 import React, { useState, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import './Experience.css';
 
 const Experience = () => {
     return (
-        <div>
-            <h3>Experience</h3>
-        </div>
+        <body className="experience-page">
+        </body>
     );
 };
 

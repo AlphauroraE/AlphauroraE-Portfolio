@@ -1,11 +1,12 @@
 import React, { useState, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import './Projects.css';
 
 const Projects = () => {
     return (
-        <div>
-            <h3>Projects</h3>
-        </div>
+        <body className="project-page">
+
+        </body>
     );
 };
 
