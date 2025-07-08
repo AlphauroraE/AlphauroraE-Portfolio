@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './Projects.css';
 import Polaroid from './Polaroid';
-import example from '../assets/photo.jpg';
+import storybookai from '../assets/StorybookAI_cover.png';
 
 const Projects = () => {
     const stickers = [
@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="project-page">
             <div style={{ padding: '20px' }}>
                 <Polaroid
-                    imageSrc={example}
+                    imageSrc={storybookai}
                     label="StoryBookAI"
                     stickers={stickers}
                 />

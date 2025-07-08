@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Monsieur+La+Doulaise&display=swap');
 
 .navbar {
-    position: fixed;
+    position: absolute;
+    /* change to position: fixed for parallax effect */
     top: 0;
     left: 0;
     width: 100%;
