@@ -12,8 +12,8 @@ const Bottom = () => {
                     <FaGithub size={24} />
                 </a>
             </div>
-            <div>Copyright © Joanne Wang. All rights reserved.</div>
-            <div className="made-with-love">Made with love ❤️</div>
+            {/* <div>Copyright © Joanne Wang. All rights reserved.</div> */}
+            {/* <div className="made-with-love">Made with love ❤️</div> */}
         </div>
     );
 };
